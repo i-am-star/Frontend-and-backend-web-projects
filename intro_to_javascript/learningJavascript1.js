@@ -28,8 +28,16 @@ A code that will show how many guests won't sit down in a small resturant that h
 5 tables and unexpectedly recieves 22 guests*/
 var number_of_guests = 22;
 var number_of_tables = 5;
-
 console.log(number_of_guests % number_of_tables);
+
+/*THE ADDITION ASSIGNMENT OPERATOR
+ A code that counts the number of overtime hours worked in a week using the addition assignment operator*/
+ var overtime = 1;
+ overtime += 2;
+ overtime += 1;
+ overtime += 2;
+ overtime += 3;
+ console.log(overtime);
 
 
 
