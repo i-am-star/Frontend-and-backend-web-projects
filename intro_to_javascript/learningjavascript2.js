@@ -17,7 +17,7 @@ console.log("wait a minute");//i is equal to 20. as long as i is greater than 5,
 //using while loop to count
 var age = 10;
 while(age < 20); {
-    console.log("age");
+    console.log(age);
     age++;
 }//age is equal to 18, as long as age is less than 20, add 1 till age is equal to 20. then print you need to be at least 18 years old
 console.log("You need to be atleast 18 years old.");
