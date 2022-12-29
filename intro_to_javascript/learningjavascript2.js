@@ -23,9 +23,55 @@ while(age < 20); {
 console.log("You need to be atleast 18 years old.");
                
  //nested loops
+<<<<<<< HEAD
  for(var i = 2020; i<2025; i++) {
     console.log(i)
     for(var k = 1; k < 13; k++) {
     console.log(k)
    }
  }
+=======
+
+
+//ASSIGNMENT
+
+for(var i=1; i<=10; i++){
+	
+	if(i==1){
+		console.log("Gold medal");
+	}
+else if(i==2){
+	console.log("silver medal");
+	}
+else if(i==3){ 
+	console.log("Bronze medal");
+}
+else {
+	console.log(i,"Level failed");
+}
+
+}
+
+// Using switch instead of if-else
+for(var i=1; i<=10; i++){
+	switch(i){
+
+	case 1: 
+	console.log("Gold medal");
+		break;
+		
+	case 2; 
+	console.log("Silver medal");
+	break;
+	
+	case 3;
+	console.log("Bronze medal");
+	break;
+
+default: 
+	console.log(i, "Level failed");
+
+	}
+}
+
+>>>>>>> 9518517da3a5c04aa9be1908e7bc9893c7f05335
