@@ -19,4 +19,7 @@ function addNum (a,b,c,d,e) {
 console.log(a, "+", b, "+", c, "+", d, "+", e, "=", x);
 }
 addNum(5,5,24,5,10 )
+
 //Storing data in arrays
+var days = ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"];
+console.log(days[0]);
