@@ -22,15 +22,13 @@ while(age < 20); {
 }//age is equal to 18, as long as age is less than 20, add 1 till age is equal to 20. then print you need to be at least 18 years old
 console.log("You need to be atleast 18 years old.");
                
- //nested loops
-<<<<<<< HEAD
+ //nested loops HEAD
  for(var i = 2020; i<2025; i++) {
     console.log(i)
     for(var k = 1; k < 13; k++) {
     console.log(k)
    }
  }
-=======
 
 
 //ASSIGNMENT
@@ -60,11 +58,11 @@ for(var i=1; i<=10; i++){
 	console.log("Gold medal");
 		break;
 		
-	case 2; 
+	case 2:
 	console.log("Silver medal");
 	break;
 	
-	case 3;
+	case 3:
 	console.log("Bronze medal");
 	break;
 
@@ -74,4 +72,3 @@ default:
 	}
 }
 
->>>>>>> 9518517da3a5c04aa9be1908e7bc9893c7f05335
